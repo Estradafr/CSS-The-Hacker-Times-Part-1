@@ -1,1 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* Colors */
+body {
+  background-color: #eee;
+}
+
+.newspaper-container {
+  background-color: white;
+  margin: 5em auto;
+}
+
+main h5 {
+  color: #dd3232;
+}
+
+nav a {
+  color: #777;
+}
+
+/* Styling */
+
+/* Newspaper Container */
+
+.newspaper-container {
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: #ddd;
+  padding: 10px;
+}
+
+/* Header */
+
+header {
+  font-family: Abril Fatface;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header .date {
+  color: #777;
+}
+
+/* Navigation */
+
+body {
+  font-family: Source Sans Pro;
+}
+
+#body-nav {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+nav li {
+  margin: 0;
+  list-style-type: none;
+  display: inline;
+  padding: .2em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* Front-Page Article */
+
+main {
+  color: black;
+  border-bottom: 1px solid #eee;
+}
+
+p {
+  display: block;
+  width: 600px;
+}
+
+main h2,h4 {
+  font-family: Roboto Slab;
+}
+
+/* More Articles */
+
+.more-articles p {
+  display: inline-block;
+  text-align: justify;
+}
+
+#end-section {
+  border-bottom: 1px solid #eee;
+}
+
+/* BONUS */
+
+.article-3--img {
+  width: 325px;
+}
+
+/* Footer */
+footer {
+  color: #777;
+  font-size: .8em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
