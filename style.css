@@ -54,6 +54,13 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+#body-nav {
+  position: sticky;
+  top: -1px;
+  z-index: 1;
+  background-color: #fff;
+}
+
 nav li {
   margin: 0;
   list-style-type: none;
